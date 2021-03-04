@@ -102,15 +102,17 @@ Sum:12
 
 Average: 4 */
 
-/* const grade = (math, physics, english) => {
-    var sum = math + physics + english;
-    var Average = sum / 3;
-    return sum, Average;
+console.log("\nIntermediate2 Average\n")
+
+
+let calculattion = (math, phys, engl) => {
+    console.log("\n\tThe Avergage is:" + (math + phys + engl) / 3 + "\n\tThe sum is:" + (math + phys + engl))
 }
-grade(3, 4, 5);
-document.write(sum);
-document.write(Average); */
+calculattion(3, 4, 5)
+
 
 /* Create a JavaScript function that will return the number of minutes, in hours and minutes. The function should accept only one argument.
 
 E.g. If we call the function and pass the number of minutes 200 we should get the message "200 minutes = 3 hour(s) and 20 minute(s)." */
+
+console.log("\nAdvanced Time Convert\n")
