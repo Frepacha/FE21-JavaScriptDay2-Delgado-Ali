@@ -68,3 +68,49 @@ function box(width, height, depth) {
     console.log(`\tThe volume of the box is: ${volume}`);
 }
 box(2, 7, 5);
+
+/* 
+Write an anonymous JavaScript function to capitalize only the first letter of a string. The function accepts only one string argument.
+
+E.g. If we pass the following string 'i am a web developer' we should get the message 'I am a web developer'
+
+Hint: Check JavaScript String charAt() Method */
+
+console.log("\nIntermediate1 Capitalize\n")
+
+var Capt = function() {
+    var text = "\ti am a web developer";
+    var captext = text.charAt(1).toUpperCase() + text.slice(2)
+    return captext;
+}
+
+console.log(Capt())
+
+/* (function() {
+    let text = "i am a web developer";
+    let captext = text.charAt(0).toUpperCase() +
+        text.slice(1)
+    console.log(captext);
+})();
+ */
+
+/* Make a function that will accept 3 parameters, which are the grades from Math, Physics and English. then make the calculation and print them on the screen. Make sure that the variables are numbers.
+
+E.g. If you put the following grades 3, 4, 5 the result should be:
+
+Sum:12
+
+Average: 4 */
+
+/* const grade = (math, physics, english) => {
+    var sum = math + physics + english;
+    var Average = sum / 3;
+    return sum, Average;
+}
+grade(3, 4, 5);
+document.write(sum);
+document.write(Average); */
+
+/* Create a JavaScript function that will return the number of minutes, in hours and minutes. The function should accept only one argument.
+
+E.g. If we call the function and pass the number of minutes 200 we should get the message "200 minutes = 3 hour(s) and 20 minute(s)." */
