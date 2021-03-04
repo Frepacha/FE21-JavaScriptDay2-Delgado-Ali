@@ -33,3 +33,38 @@ function ageCalculator(birthYear) {
 }
 ageCalculator(1992);
 ageCalculator(1984);
+
+/* Create a JavaScript function that converts degrees to radians. The function accepts one argument, the degrees, and outputs the radians based on them. The formula for converting degrees to radians is: "degrees * (pi/180)"
+
+E.g. If user passes 90 degrees it should get the result of 1.57079 radians */
+
+console.log("\nBasic 4 Degree-Radian Conversion\n");
+
+function convRad(degrees) {
+    const rad = 3.1416 / 180;
+    var radresult = degrees * rad;
+    console.log(`\tIf you put ${degrees} you will have ${radresult} radians`);
+}
+convRad(90);
+
+/* Create a function that calculates the area and volume of a box.
+
+Formulas:
+area = width x height
+volume = width x height x depth
+
+Pass three different numbers as arguments and get calculated results using the return statement.
+
+You should get the following results:
+The area of the box is: 14
+The volume of the box is: 70 */
+
+console.log("\nBasic 5 Area and Volume of a box\n");
+
+function box(width, height, depth) {
+    var area = width * height;
+    var volume = width * height * depth;
+    console.log(`\tThe area of the box is: ${area}`)
+    console.log(`\tThe volume of the box is: ${volume}`);
+}
+box(2, 7, 5);
